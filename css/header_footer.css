@@ -1,0 +1,61 @@
+html{
+  margin:0;
+  padding: 0;
+  width: 100vw;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images5.alphacoders.com/456/456536.jpg");
+  background-size: cover;
+  display: table;
+}
+
+nav{
+  text-align:center;
+}
+
+.lista_nav{
+  height: 82px;
+}
+
+ul{
+  margin: 200px auto;
+  width: 800px; 
+  height: 50px;
+  /* apagar bolinhas da lista */
+  list-style: none;
+  /* faixa translucida */
+  background: rgba(2, 5, 15, 0.4);
+} 
+
+/* editando cada conteudo da lista */
+li{
+  margin-top: 26px;
+  /* alinhando o conteudo já que estamos usando um text-align:center; */
+  display: inline-block;
+   
+}
+
+/* estiliando as tag a dentro dos li */
+li a{
+  /* remove as linhas que ficam em baixo por ser uma texto linkado */
+  text-decoration: none;
+  color: darkgray;
+  font-weight: lighter;
+  font-size: 24px;
+  /* adicionando animação para quando a página for recarregada */
+  transition: 1.1s; 
+  padding: 25px 30px;
+}
+
+
+/* quando passar o mouse por cima terá um efeito */
+li a:hover {
+  transition: 0.1s;
+  color:black;
+  background: rgba(225, 225, 225, 0.4);
+}
